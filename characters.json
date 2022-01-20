@@ -1,0 +1,74 @@
+[
+    {
+        "id" : "KGSE",
+        "name" : "Keqing",
+        "weaponType" : "Sword",
+        "vision" : "Electro"
+    },
+    {
+        "id" : "KKSA",
+        "name" : "Kaedehara Kazuha",
+        "weaponType" : "Sword",
+        "vision" : "Anemo"
+    },
+    {
+        "id" : "HTPP",
+        "name" : "Hu Tao",
+        "weaponType" : "Polearm",
+        "vision" : "Pyro"
+    },
+    {
+        "id" : "KSBE",
+        "name" : "Kujou Sara",
+        "weaponType" : "Bow",
+        "vision" : "Electro"
+    },
+    {
+        "id" : "TABH",
+        "name" : "Tartaglia",
+        "weaponType" : "Bow",
+        "vision" : "Hydro"
+    },
+    {
+        "id" : "XOPA",
+        "name" : "Xiao",
+        "weaponType" : "Polearm",
+        "vision" : "Anemo"
+    },
+    {
+        "id" : "DCCP",
+        "name" : "Diluc",
+        "weaponType" : "Claymore",
+        "vision" : "Pyro"
+    },
+    {
+        "id" : "NGCG",
+        "name" : "Ningguang",
+        "weaponType" : "Catalyst",
+        "vision" : "Geo"
+    },
+    {
+        "id" : "AOSG",
+        "name" : "Albedo",
+        "weaponType" : "Sword",
+        "vision" : "Geo"
+    },
+    {
+        "id" : "KASC",
+        "name" : "Kamisato Ayaka",
+        "weaponType" : "Sword",
+        "vision" : "Cryo"
+    },
+    {
+        "id" : "DABC",
+        "name" : "Diona",
+        "weaponType" : "Bow",
+        "vision" : "Cryo"
+    },
+    {
+        "id" : "BTPS",
+        "name" : "Bennett",
+        "weaponType" : "Sword",
+        "vision" : "Pyro"
+    }
+]

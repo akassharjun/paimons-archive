@@ -1,0 +1,62 @@
+:root {
+  --bigfoot: #f59359;
+  --onyx: #2d3142;
+  --success: #49df6a;
+  --info: var(--bigfoot);
+  --error: #ff7a7c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body:is(h1, h2, h3, h4, h5, h6) {
+  font-family: "Poppins", sans-serif;
+}
+
+body:not(h1, h2, h3, h4, h5, h6) {
+  font-family: "Manrope", sans-serif;
+  font-size: 1rem;
+}
+
+body h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+}
+
+body h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+body h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+body h4 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+body p {
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 1;
+}
+
+body p.text-secondary {
+  font-weight: normal;
+  font-size: 0.875rem;
+  opacity: 1;
+}
+
+p.text-thin {
+  font-weight: 200;
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+

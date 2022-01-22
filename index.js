@@ -122,15 +122,17 @@ let characters = [
 const characterDb = new PouchDB("characters", { auto_compaction: true });
 
 $(document).on("ready", async () => {
-  characters.sort(function (a, b) {
-    if (a.name < b.name) {
-      return -1;
-    }
-    if (a.name > b.name) {
-      return 1;
-    }
-    return 0;
-  });
+  // characters.sort(function (a, b) {
+  //   if (a.id < b.id ) {
+  //     return -1;
+  //   }
+  //   if (a.id > b.id) {
+  //     return 1;
+  //   }
+  //   return 0;
+  // });
+
+  characters.sort(() => Math.random() - 0.5)
 
   characters.sort(function (a, b) {
     if (a.new == undefined) {

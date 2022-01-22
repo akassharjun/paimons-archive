@@ -19,7 +19,7 @@ class NavHeader extends HTMLElement {
         <style>${styles}</style>
         <div class="flex flex-row md:justify-between py-5 px-10 justify-center nav-header">
             <div>
-                <img src="/assets/images/logo.svg" class="h-12 md:h-full"/>
+                <img src="/assets/images/logo.svg" class="h-12 md:h-full" onclick="() => {window.location='/'}"/>
             </div>
             <div class="nav-items md:block hidden">
               <a>Some Link</a>
@@ -28,6 +28,10 @@ class NavHeader extends HTMLElement {
     `;
 
     return html;
+  }
+
+  home() {
+    window.location = "/"
   }
 }
 

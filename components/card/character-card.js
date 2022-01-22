@@ -23,8 +23,9 @@ class CharacterCard extends HTMLElement {
         }
 
         #character-name {
-            text-shadow: rgba(0, 0, 0, 1) 5px 5px 8px;
+            text-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px;
             line-height: 1;
+            font-size:1.5rem;
         }
 
         @media only screen and (max-width: 450px){
@@ -57,7 +58,7 @@ class CharacterCard extends HTMLElement {
                     </div>
                 </div> 
                 <div class="absolute right-0 top-4 px-1 bg-red-600 py-1 ${this.get("new")}"><p class="text-white text-xs">NEW</p></div>
-                <img src="${this.get("character-image")}" class="absolute right-5 top-0 md:right-0 md:top-5 md:w-40 w-20" style="z-index:-1;" />
+                <img src="${this.get("character-image")}" class="absolute right-5 top-0 md:right-0 md:top-0 md:w-36 w-24" style="z-index:-1;" />
         </div>
       `;
 
